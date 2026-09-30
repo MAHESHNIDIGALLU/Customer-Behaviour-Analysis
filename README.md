@@ -7,7 +7,12 @@ This project walks through a complete data analytics workflow: from loading and 
 
 Business Goal: "Identify which product categories drive the most revenue, customer reviews, how many loyal customers, revenue by customer category " 
 
-Key Skills Demonstrated: Data cleaning · Exploratory Data Analysis · SQL · Data Visualization · Dashboarding · Data Storytelling
+Key Skills Demonstrated:
+- Data cleaning
+- Exploratory Data Analysis
+- SQL · Data Visualization
+- Dashboarding
+- Data Storytelling
 
 📂 Dataset :
 
@@ -58,18 +63,22 @@ Version control	              : Git & GitHub
 
 📁 Project Structure
 
-├── data/
-│   ├── raw/                 # Original dataset
-│   └── cleaned/             # Cleaned dataset
-├── notebooks/               # Python EDA & cleaning
-├── sql/                     # MySQL queries
-├── dashboard/               # Power BI (.pbix) file
-├── report/                  # Final report (PDF/DOCX)
-├── presentation/            # Slide deck (Cloude)
-├── images/                  # Screenshots
-├── requirements.txt
-└── README.md
-
+ Data-Analytics-Project/ 
+  ├── data/ 
+  ├── raw_dataset.csv 
+  └── cleaned_dataset.csv 
+  ├── python/ 
+  └── EDA_Data_Cleaning.ipynb 
+  ├── sql/ 
+  └── analysis_queries.sql 
+  ├── powerbi/ 
+  └── analytics_dashboard.pbix 
+  ├── report/ 
+  └── project_report.pdf 
+  ├── presentation/ 
+  └── project_presentation.pptx 
+  └── README.md
+ 
 Conclusion
 
 This project demonstrates a complete end-to-end data analytics workflow, combining Python, SQL, MySQL, Power BI, business reporting, and AI-assisted productivity tools.
